@@ -56,7 +56,7 @@ TEST_CASE("testing nextTwinPrime") {
   CHECK(nextTwinPrime(137) == 139);
 }
 
-// Task F. Next twin prime
+// Task G. Largest twin prime in range
 TEST_CASE("testing largestTwinPrime") {
   CHECK(largestTwinPrime(23,47) == 43);
   CHECK(largestTwinPrime(47,47) == -1);
